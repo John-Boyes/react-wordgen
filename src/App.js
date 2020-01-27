@@ -35,6 +35,7 @@ function App() {
   const classes = useStyles();
   const [state, setState] = React.useState({
     left: false,
+    showToolbar: false,
   });
 
   const toggleDrawer = (side, open) => event => {
